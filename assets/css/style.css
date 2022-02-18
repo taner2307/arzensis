@@ -2902,14 +2902,14 @@ hero-btn {
 
 /* line 797, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
 .section-padding30 {
-  padding-top: 195px;
+  padding-top: 145px;
   padding-bottom: 170px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   /* line 797, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-padding30 {
-    padding-top: 195px;
+    padding-top: 15px;
     padding-bottom: 170px;
   }
 }
@@ -2917,7 +2917,7 @@ hero-btn {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 797, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-padding30 {
-    padding-top: 150px;
+    padding-top: 100px;
     padding-bottom: 110px;
   }
 }
@@ -2933,7 +2933,7 @@ hero-btn {
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 797, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-padding30 {
-    padding-top: 65px;
+    padding-top: 35px;
     padding-bottom: 30px;
   }
 }
