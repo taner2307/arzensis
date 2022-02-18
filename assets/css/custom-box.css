@@ -1,0 +1,26 @@
+.categories-area .references-box {
+    border: 9px solid transparent;
+    padding: 30px 22px;
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s;
+    position: relative;
+    z-index: 1;
+    background: #ffff;
+}
+
+@media (max-width: 575px) {
+    /* line 3, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_categories.scss */
+    .categories-area .references-box {
+        padding: 30px 22px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 3, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_categories.scss */
+    .categories-area .references-box {
+        padding: 30px 18px;
+    }
+}
