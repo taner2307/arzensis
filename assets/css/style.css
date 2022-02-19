@@ -8426,4 +8426,26 @@ del {
   margin-bottom: 10px;
 }
 
+
+.site-block-check {
+  padding: 0;
+  margin: 0 0 30px 0; }
+.site-block-check li {
+  padding: 0;
+  margin: 0; }
+.site-block-check li {
+  display: block;
+  padding-left: 30px;
+  position: relative;
+  margin-bottom: 10px; }
+.site-block-check li:before {
+  position: absolute;
+  color: red;
+  left: 0;
+  top: -.3rem;
+  font-family: 'icomoon', sans-serif;
+  font-size: 1.1rem;
+  content: "\e5ca"; }
+
+
 /*# sourceMappingURL=style.css.map */
