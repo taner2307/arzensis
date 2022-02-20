@@ -4081,6 +4081,8 @@ hero-btn {
   transition: all 0.4s ease-out 0s;
   position: relative;
   z-index: 1;
+  box-shadow: 3px 3px 3px 3px lightgray;
+
   background: #ffff;
 }
 
