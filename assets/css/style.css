@@ -2788,6 +2788,9 @@ hero-btn {
   .main_logo {
     width: 100%;
   }
+  .mobile_area {
+    margin-top: -50px;
+  }
 }
 
 /* line 738, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
