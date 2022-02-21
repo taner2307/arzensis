@@ -2790,12 +2790,6 @@ hero-btn {
   }
 }
 
-@media (max-width: 1200px) {
-  .mobile_area {
-    margin-top: 100px;
-  }
-}
-
 /* line 738, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
 .pb-bottom {
   padding-bottom: 200px;
