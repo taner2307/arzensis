@@ -2781,6 +2781,15 @@ hero-btn {
   }
 }
 
+@media (min-width: 1200px) {
+  .slide_arz {
+    height: 640px;
+  }
+  .main_logo {
+    width: 100%;
+  }
+}
+
 /* line 738, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
 .pb-bottom {
   padding-bottom: 200px;
