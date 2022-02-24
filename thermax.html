@@ -20,6 +20,65 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+
+
+        .wrapper {
+            margin: 10% auto;
+            width: 400px;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        label {
+            display: block;
+            cursor: pointer;
+            padding: 10px;
+            border: 1px solid #fff;
+            border-bottom: none;
+        }
+
+        label:hover {
+            background: #e32625;
+        }
+
+        label.last {
+            border-bottom: 1px solid #fff;
+        }
+
+        ul ul li {
+            padding: 10px;
+            background: darkgray;
+        }
+
+
+        input[type="checkbox"] {
+            position: absolute;
+            left: -9999px;
+        }
+
+        input[type="checkbox"] ~ ul {
+            height: 0;
+            transform: scaleY(0);
+        }
+
+        input[type="checkbox"]:checked ~ ul {
+            height: 100%;
+            transform-origin: top;
+            transition: transform .2s ease-out;
+            transform: scaleY(1);
+        }
+
+        input[type="checkbox"]:checked + label {
+            background: #26C281;
+            border-bottom: 1px solid #fff;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -121,39 +180,6 @@
                     <div class="single-post">
                         <div class="feature-img">
                             <img class="img-fluid" src="img/arzensis/slide/slide_1.jpeg" alt="">
-                        </div>
-                        <div class="blog_details">
-                            <h2>TRİJENERASYON NEDİR ?
-                            </h2>
-                            <p class="excert">
-                                Trijenerasyon sistemi yakıt olarak doğal gaz veya biyogaz kullanılarak eşzamanlı
-                                elektrik, ısıtma ve soğutma üretimi yapan sistemlerdir.Bir trijenerasyon santrali bir
-                                birleşik ısı ve güç (kojenerasyon) siteminin absorbsiyonlu bir soğutma sistemi(THERMAX
-                                ABSORBSİYONLU CHİLLER) ile entegre edilmesi sonucunda oluşur.
-                            </p>
-                            <p class="excert">
-                                Kojenerasyon ünitesi bir elektrik jeneratörüne bağlanmış ve doğal gaz veya biyogazla
-                                çalışan bir gaz motorundan oluşur. Bu elektrik üretirken, aynı zamanda ısı salar. Isı
-                                kısmen fabrikanın üretim sürecinde ısıtma devresine veya binanın CV sistemine verilir;
-                                kalanı ise absorbsiyonlu soğutma sistemi tarafından geri kazanılır.
-                            </p>
-                            <p class="excert">Absorbsiyonlu soğutma sistemi enerji kaynağı olarak elektrik yerine ısı
-                                tüketir ve soğutma yapmak için kompresör sistemi yerine kimyasal tepkimeler sonucu
-                                oluşan enerjiyi kullanır.</p>
-                        </div>
-                    </div>
-                    <div class="single-post">
-                        <div class="blog_details">
-                            <h2>NEDEN TRİJENERASYON
-                            </h2>
-                            <p class="excert">
-                                Bir trijenerasyon santralinin birçok önemli faydası vardır. İlk olarak ısıtma, soğutma
-                                ve elektrik üretimi yapmak için daha az enerji harcar ve böylece ısıtma, soğutma ve
-                                elektriğin ayrı ayrı üretildiği ve daha fazla enerji girişi gerektiren, ayrıca daha
-                                fazla ısı ve enerji kaybına neden olan geleneksel yöntemlere göre üretim maliyetlerini
-                                azaltır.Ayrıca normal şartlarda atık ısı diyebileceğimiz atmosfere gönderilip fayda
-                                sağlayamayacağımız ısı enerjisini kullanarak tesislerin ve sistemlerin soğutma
-                                ihtiyacını karşılar. </p>
                         </div>
                     </div>
                     <div class="single-post">
@@ -272,62 +298,132 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="blog_right_sidebar">
-                        <aside class="single_sidebar_widget post_category_widget">
-                            <h4 class="widget_title">Thermax Absorbsiyonlu Chiller</h4>
-                            <ul class="list cat-list">
-                                <li>
-                                    <a style="cursor: pointer" class="d-flex" data-toggle="collapse"
-                                       data-target="#collapse1" aria-expanded="false"
-                                       aria-controls="collapse1">
-                                        <p>Satış Hizmetleri</p>
-                                    </a>
-                                    <div class="collapse" id="collapse1">
-                                        <div class="card card-body">
-                                            <div class="row">
-                                                <div class="col-lg-12 col-md-6 ">
-                                                    <ul>
-                                                        <li>Steam Fired Chiller</li>
-                                                        <li>Direct Fired Chiller</li>
-                                                        <li>Hot Water Driven Chiller</li>
-                                                        <li>Exhaust Fired Chiller (2D Series)</li>
-                                                        <li>Multi-Energy Driven Chiller (2D Series)</li>
-                                                        <li>High Capacity Chiller</li>
+                        <div class="thSidebar thfixed division">
+                            <h3>OFFERINGS</h3>
+                            <div class="custom_nav" style="opacity: 1;">
+                                <div class="menu-absorption-cooling-menu-container">
+                                    <ul id="menu-absorption-cooling-menu"
+                                        class="menu ui-accordion ui-widget ui-helper-reset" role="tablist">
+                                        <li id="menu-item-869"
+                                            class="menu-accordion menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-869">
+                                            <a href="#"
+                                               class="ui-accordion-header ui-corner-top ui-state-default ui-accordion-header-active ui-state-active ui-accordion-icons"
+                                               role="tab" id="ui-id-1" aria-controls="ui-id-2" aria-selected="true"
+                                               aria-expanded="true" tabindex="0"><span
+                                                    class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-s"></span>Offerings</a>
+                                            <ul class="sub-menu ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content ui-accordion-content-active"
+                                                style="height: 307.891px;" id="ui-id-2" aria-labelledby="ui-id-1"
+                                                role="tabpanel" aria-hidden="false">
+                                                <li id="menu-item-11147"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11143 current_page_item menu-item-has-children menu-item-11147">
+                                                    <a href="steam_fired_chiller.html"
+                                                       aria-current="page">Vapour Absorption Chiller<i
+                                                            class="fa fa-angle-down d-inline float-right mt-1"
+                                                            style="font-size:15px;"></i></a>
+                                                    <ul class="sub-menu">
+                                                        <li id="menu-item-11206"
+                                                            class="innersubmenu menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-11206">
+                                                            <a href="single_effect_steam_fired_chiller.html">Steam
+                                                                Fired Chiller<i
+                                                                        class="fa fa-angle-down d-inline float-right mt-1"
+                                                                        style="font-size:15px;"></i></a>
+                                                            <ul class="sub-menu">
+                                                                <li id="menu-item-13217"
+                                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13217">
+                                                                    <a href="double_effect_steam_fired_chiller.html">Double
+                                                                        Effect Steam Fired Chiller</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li id="menu-item-11233"
+                                                            class="innersubmenu menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-11233">
+                                                            <a href="hot_water_driven_chiller.html">Hot
+                                                                Water Driven Chiller<i
+                                                                        class="fa fa-angle-down d-inline float-right mt-1"
+                                                                        style="font-size:15px;"></i></a>
+                                                            <ul class="sub-menu">
+                                                                <li id="menu-item-13220"
+                                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-13220">
+                                                                    <a href="low_pressure_hot_water.html">Low
+                                                                        Pressure Hot Water<i
+                                                                                class="fa fa-angle-down d-inline float-right mt-1"
+                                                                                style="font-size:15px;"></i></a>
+                                                                    <ul class="sub-menu">
+                                                                        <li id="menu-item-13221"
+                                                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13221">
+                                                                            <a href="5g_series.html">5G
+                                                                                Series</a></li>
+                                                                        <li id="menu-item-13222"
+                                                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13222">
+                                                                            <a href="L5_series.html">L5
+                                                                                Series</a></li>
+                                                                    </ul>
+                                                                </li>
+                                                                <li id="menu-item-13225"
+                                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13225">
+                                                                    <a href="medium_pressure_hot_water.html">Medium
+                                                                        Pressure Hot Water</a></li>
+                                                                <li id="menu-item-13226"
+                                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13226">
+                                                                    <a href="high_pressure_hot_water.html">High
+                                                                        Pressure Hot Water</a></li>
+                                                                <li id="menu-item-28675"
+                                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28675">
+                                                                    <a href="ultralow_temperature_hot_water.html">Ultra
+                                                                        Low Temperature Hot Water</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li id="menu-item-11516"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11516">
+                                                            <a href="direct_fired_chiller.html">Direct
+                                                                Fired Chiller</a></li>
+                                                        <li id="menu-item-11515"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11515">
+                                                            <a href="exhaust_fired_chiller.html">EXHAUST
+                                                                FIRED CHILLER (2D SERIES)</a></li>
+                                                        <li id="menu-item-11514"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11514">
+                                                            <a href="multi-energy_driven_chiller.html">MULTI-ENERGY
+                                                                DRIVEN CHILLER (2D SERIES)</a></li>
+                                                        <li id="menu-item-11513"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11513">
+                                                            <a href="high_capacity_chiller.html">HIGH
+                                                                CAPACITY CHILLER</a></li>
                                                     </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-
-                                <li>
-                                <a style="cursor: pointer" class="d-flex" data-toggle="collapse"
-                                   data-target="#collapse2" aria-expanded="false"
-                                   aria-controls="collapse2">
-                                    <p>Servis Hizmetleri</p>
-                                </a>
-                                <div class="collapse" id="collapse2">
-                                    <div class="card card-body">
-                                        <div class="row">
-                                            <div class="col-lg-12 col-md-6 ">
-                                                <ul>
-                                                    <li>Devreye Alma Hizmetleri</li>
-                                                    <li>Bakım Ve Arıza Servisleri</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
+                                                </li>
+                                                <li id="menu-item-11139"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11139">
+                                                    <a href="triple_effect_chiller.html">Triple
+                                                        Effect Chiller</a></li>
+                                                <li id="menu-item-11063"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11063">
+                                                    <a href="chiller_heater.html">Chiller
+                                                        Heater</a></li>
+                                                <li id="menu-item-11083"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11083">
+                                                    <a href="hybrid_chillers.html">Hybrid
+                                                        Chillers</a></li>
+                                            </ul>
+                                        </li>
+                                        <li id="menu-item-11105"
+                                            class="menu-accordion menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-11105">
+                                            <a href="https://www.thermaxglobal.com/product-features/"
+                                               class="ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons"
+                                               role="tab" id="ui-id-3" aria-controls="ui-id-4" aria-selected="false"
+                                               aria-expanded="false" tabindex="-1"><span
+                                                    class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span></a>
+                                            <ul class="sub-menu ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content"
+                                                style="display: none; height: 307.891px;" id="ui-id-4"
+                                                aria-labelledby="ui-id-3" role="tabpanel" aria-hidden="true">
+                                                <li id="menu-item-12010"
+                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12010">
+                                                    <a href="https://www.thermaxglobal.com/product-features/">Listing</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
                                 </div>
-                                </li>
-
-
-                                <li>
-                                    <a style="cursor: pointer" class="d-flex" data-toggle="collapse">
-                                        <p>Yedek Parça Hizmetleri</p>
-                                    </a>
-                                </li>
-                            </ul>
-
-                        </aside>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -362,14 +458,16 @@
                     <div class="col-xl-6 col-lg-2 col-md-3 col-sm-5">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
-                                <h4 style="font-size: smaller">ARZENSİS ELEKTRİK MEKANİK MÜHENDİSLİK MÜŞAVİRLİK SAN. TİC. LTD. ŞTİ.</h4>
+                                <h4 style="font-size: smaller">ARZENSİS ELEKTRİK MEKANİK MÜHENDİSLİK MÜŞAVİRLİK SAN.
+                                    TİC. LTD. ŞTİ.</h4>
                                 <ul>
                                     <li><a href="thermax.html">Thermax Absorbsiyonlu Chiller</a></li>
                                     <li><a href="solar_power.html"> Güneş Enerji Santralleri İçin EPC Hizmetleri</a>
                                     </li>
                                     <li><a href="otomation_design.html">Otomasyon, Dizayn, Mühendislik ve Uygulama
                                         Hizmetleri</a></li>
-                                    <li><a href="services.html">Endüstriyel Tesislerde Elektrik ve Mekanik Taahhüt İşleri</a></li>
+                                    <li><a href="services.html">Endüstriyel Tesislerde Elektrik ve Mekanik Taahhüt
+                                        İşleri</a></li>
                                     <li><a href="panel.html">AG Pano İmalat Hizmetleri</a></li>
                                     <li><a href="consultant.html">Müşavirlik Hizmetleri</a></li>
                                 </ul>
@@ -447,6 +545,22 @@
 <!-- Jquery Plugins, main Jquery -->
 <script src="./assets/js/plugins.js"></script>
 <script src="./assets/js/main.js"></script>
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+</script>
 
 </body>
 

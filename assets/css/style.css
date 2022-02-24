@@ -2782,9 +2782,6 @@ hero-btn {
 }
 
 @media (min-width: 1200px) {
-  .slide_arz {
-    height: 640px;
-  }
   .main_logo {
     width: 100%;
   }
