@@ -3716,6 +3716,30 @@ hero-btn {
 }
 
 /* line 31, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
+.thermax_banner {
+  background-image: url(../../img/thermax/1920x450_thermax.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.solar_power_banner {
+  background-image: url(../../img/thermax/1920x450_gunes.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.services_banner {
+  background-image: url(../../img/thermax/1920x450_elektrik_mekanik.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.panel_banner {
+  background-image: url(../../img/thermax/1920x450_pano.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .slider-area2 {
   background-image: url(../../img/hero/hero2.jpg);
   background-repeat: no-repeat;
@@ -5811,6 +5835,10 @@ hero-btn {
 .blog_details {
   padding: 30px 0 20px 10px;
   box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3);
+}
+
+.blog_details2 {
+  padding: 30px 0 20px 10px;
 }
 
 @media (min-width: 768px) {
