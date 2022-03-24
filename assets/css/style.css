@@ -3740,6 +3740,19 @@ hero-btn {
   background-size: contain;
 }
 
+.otomation_banner {
+  background-image: url(../../img/thermax/1920x450_otomasyon.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.consultant_banner {
+  background-image: url(../../img/thermax/1920x450_musavirlik.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
 .slider-area2 {
   background-image: url(../../img/hero/hero2.jpg);
   background-repeat: no-repeat;
